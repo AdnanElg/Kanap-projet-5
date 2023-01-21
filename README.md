@@ -7,8 +7,6 @@
 - HTML
 - CSS
 - JS
-
- ![GitHub repo size](https://github.com/AdnanElg/Kanap-projet-5.git) 
  
  ## Tester le projet :
 
