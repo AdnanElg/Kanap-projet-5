@@ -1,16 +1,19 @@
 {
-  "name": "back",
+  "name": "kanap-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "Projet e-commerce",
+  "main": "server.js",
+  "engines": {
+    "node": "18.x"
   },
-  "author": "",
+  "scripts": {
+    "starte": "node app.js"
+  },
+  "author": "El Ghalbzouri Adnan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
+    "express": "^4.16.4",
     "module": "^1.2.5",
-    "uuid": "^9.0.0"
+    "uuid": "^3.3.2"
   }
 }
