@@ -32,12 +32,11 @@
 
 // URLSearchParams : 
 let url = new URLSearchParams(document.location.search);
-console.log(url);
 let id = url.get("id");
 
 
 //Fonction Fetch :
-fetch('http://kanap-db.vercel.app/api/products' + id)
+fetch('https://kanap-db.vercel.app/api/products' + id)
   .then( (response) => response.json())
   .then( (dataProducts) => scriptDataProducts (dataProducts));
 
