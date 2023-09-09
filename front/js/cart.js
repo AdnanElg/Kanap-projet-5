@@ -327,7 +327,7 @@ const contact = {
         // Regex pour le contrôle des champs adresse :
         const adresse = contact.address;  
         let inputAddress = document.querySelector("#address");
-        if (/^[A-Za-z0-9\s]{5,100}$/.test(adresse)) {
+        if (/^([A-Za-zÀ-ÖØ-öø-ÿ0-9\séè]{1,100})?([-]{0,1})?([A-Za-zÀ-ÖØ-öø-ÿ0-9\séè]{1,100})$/.test(adresse)) {
             inputAddress.style.border = "solid 2px green";
             document.querySelector("#addressErrorMsg").textContent = "";
             return true;
