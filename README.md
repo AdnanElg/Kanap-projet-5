@@ -1,15 +1,30 @@
-# Kanap #
 
-This is the front end and back end server for Project 5 of the Web Developer path.
+# Formation développeur web 
 
-### Back end Prerequisites ###
+## 📎 Projet 5 : Kanap
 
-You will need to have Node and `npm` installed locally on your machine.
+## Technologies :
+- HTML
+- CSS
+- JS
+ 
+## Tester le projet :
 
-### Back end Installation ###
+```terminal
+git clone https://github.com/AdnanElg/Kanap-projet-5.git
+```
 
-Clone this repo. From the "back" folder of the project, run `npm install`. You 
-can then run the server with `node server`. 
-The server should run on `localhost` with default port `3000`. If the
-server runs on another port for any reason, this is printed to the
-console when the server starts, e.g. `Listening on port 3001`.
+## Installation :
+
+`Node` et `npm` doivent être installés localement sur votre machine.\
+Installez toutes les dépendances avec npm.
+
+Ouvrez le répertoire `back` depuis le terminal, puis :
+```terminal
+npm install
+```
+
+Pour lancer le server :
+```terminal
+node server ou npm start
+```
