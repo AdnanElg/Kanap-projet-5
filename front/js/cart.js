@@ -87,7 +87,7 @@ let localStorageProducts = JSON.parse(localStorage.getItem("produits"));
     for (product of localStorageProducts) {
 
         //requête Fetch : 
-        fetch('http://localhost:3000/api/products/' + product.id)
+        fetch('https://kanap-db.vercel.app/api/products' + product.id)
         .then( (response) => response.json())
         .then( (data) => {
 

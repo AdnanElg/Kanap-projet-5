@@ -35,7 +35,7 @@
 
 //Fonction Fetch :
 
-fetch('http://localhost:3000/api/products')
+fetch('https://kanap-db.vercel.app/api/products')
   .then( (response) => response.json())
   .then( (dataKanaps) => scriptProductsKanaps(dataKanaps));
     
