@@ -37,7 +37,7 @@ let id = url.get("id");
 
 
 //Fonction Fetch :
-fetch('https://kanap-db.vercel.app/api/products' + id)
+fetch('http://kanap-db.vercel.app/api/products' + id)
   .then( (response) => response.json())
   .then( (dataProducts) => scriptDataProducts (dataProducts));
 
