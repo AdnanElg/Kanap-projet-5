@@ -86,7 +86,7 @@ let localStorageProducts = JSON.parse(localStorage.getItem("produits"));
     
     for (product of localStorageProducts) {
         //requête Fetch : 
-        fetch('https://kanap-db.vercel.app/api/products/' + product.id)
+        fetch('https://kanap-bd.vercel.app/api/products/' + product.id)
         .then( (response) => response.json())
         .then( (data) => {
 
@@ -409,7 +409,7 @@ const contact = {
     
     function sendFromToServer () {
 
-        fetch("https://kanap-db.vercel.app/api/products/order/", {
+        fetch("https://kanap-bd.vercel.app/api/products/order/", {
             method: "POST",
             body:JSON.stringify({contact, products}) ,
             headers: {
