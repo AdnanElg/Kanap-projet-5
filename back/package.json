@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Projet e-commerce",
   "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "starte": "node app.js"
   },
   "author": "El Ghalbzouri Adnan",
   "license": "ISC",
