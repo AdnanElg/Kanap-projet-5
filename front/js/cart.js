@@ -408,7 +408,6 @@ const contact = {
     
     
     function sendFromToServer () {
-
         fetch("https://kanap-bd.vercel.app/api/products/order/", {
             method: "POST",
             body:JSON.stringify({contact, products}) ,
